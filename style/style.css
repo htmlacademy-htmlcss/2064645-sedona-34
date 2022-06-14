@@ -88,9 +88,13 @@
       background-size: cover;
       padding: 51px 0 83px 0;
   }
+
+  .main-catolog__filter{
+    background-image: url("../images/main/index-background.jpg");
+  }
   
   .white-line{
-    margin: 0%;
+    margin: 0ch;
   }
 
   .advantages-box{
@@ -99,4 +103,6 @@
 
   .follow-massage{
     background-image: url(../images/main/background-following.jpg);
+    width: 1200;
+    height: 411;
   }
