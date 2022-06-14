@@ -1,0 +1,108 @@
+/* Font */
+
+@font-face {
+    font-family:"PT Sans";
+    font-style: normal;
+    font-display: swap;
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
+  }
+  
+  @font-face {
+    font-family:"PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
+  }
+  
+  /* Defolt styles */
+  
+  /* Root */
+  
+  :root{
+    /* Brown color(buttons) patterns */
+    --button-brown-defolt-color: #756157;
+    --button-brown-hover-color: #615048;
+    --button-brown-focus-color: #615048;
+    --button-brown-active-color: #756157;
+  
+    /* Blue color(buttons, footer-icons, pagination) patterns */
+    --button-blue-defolt-color: #82B3D3;
+    --button-blue-hover-color: #68A2CA;
+    --button-blue-focus-color: #68A2CA;
+    --button-blue-active-color: #82B3D3;
+  
+    /* Green color(buttons) patterns */
+    --button-green-defolt-color: #7DB54F;
+    --button-green-hover-color: #6C9E42;
+    --button-green-focus-color: #6C9E42;
+    --button-green-active-color: #7DB54F;
+  
+    /* Basic text color (black) */
+    --basic-text-color-black: #000;
+  
+    /* Additional text color (white, dark charcoal) */
+    --additional-text-color-white: #fff;
+    --additional-text-color-charcoal: #333;
+  }
+  
+  
+  
+  /* Common properties */
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  html{
+    background-color: #f2f2f2;
+  }
+  
+  body{
+    font-family: "PT sans", sans-serif;
+    font-size: 22px;
+    line-height: 26px;
+    color: var(--basic-text-color-black);
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  button,
+  input{
+    font-family: inherit;
+  }
+  
+  
+  img {
+    max-width: 100%;
+    object-fit: contain;
+  }
+
+  .images-box {
+      background-image: url("../images/main/index-background.jpg");
+      background-size: cover;
+      padding: 51px 0 83px 0;
+  }
+
+  .main-catolog__filter{
+    background-image: url("../images/main/index-background.jpg");
+  }
+  
+  .white-line{
+    margin: 0ch;
+  }
+
+  .advantages-box{
+      background-color: #82B3D3;
+  }
+
+  .follow-massage{
+    background-image: url(../images/main/background-following.jpg);
+    width: 1200;
+    height: 411;
+  }
